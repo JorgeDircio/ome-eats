@@ -20,6 +20,13 @@
       "supportsTablet": true
     },
     "android": {
+      "permissions":[
+        "CAMERA_ROLL",
+        "NOTIFICATION",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "USER_FACING_NOTIFICATIONS"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -27,6 +34,16 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "firebase":{
+      "apiKey": "AIzaSyDa9mdm3nQulvzzkIGgFd1jJqCYYx2ZB7Q",
+      "authDomain": "omeeast.firebaseapp.com",
+      "projectId": "omeeast",
+      "storageBucket": "omeeast.appspot.com",
+      "messagingSenderId": "858497871853",
+      "appId": "1:858497871853:web:3d5817ead9ab231fc341e4"
+      }
     }
   }
 }
